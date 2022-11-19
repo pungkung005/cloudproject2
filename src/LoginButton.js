@@ -42,7 +42,12 @@ const LoginButton = () => {
     };
 
 
-    return <button onClick={() => loginWithRedirect()}>Log In</button>;
+    return (
+        <div className='body1'>
+        <h1 className='header'>Login</h1><br></br>
+        <button onClick={() => loginWithRedirect()}>Log In</button>
+        </div>
+    ) 
 
 };
 

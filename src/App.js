@@ -17,6 +17,7 @@ function App() {
       <Route path="login" element={<LoginButton/>} />
       <Route path="main" element={<Main/>} />
       <Route path="credit" element={<Credit/>} />
+      <Route path="testweb" element={<Login/>} />
       
       {/* <Route path="register" element={<Register/>}/> */}
     </Routes>

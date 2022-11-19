@@ -21,6 +21,7 @@ function showdata(data) {
 
 getapi(api_url)
 
+
 // function handleCredentialResponse(response) {
 //     let navigate = useNavigate()
 //     console.log("Encoded JWT ID token: " + response.credential);
