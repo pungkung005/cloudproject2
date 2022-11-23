@@ -45,7 +45,7 @@ const LoginButton = () => {
     return (
         <div className='body1'>
         <h1 className='header'>Login</h1><br></br>
-        <button onClick={() => loginWithRedirect()}>Log In</button>
+        <button className='header' onClick={() => loginWithRedirect()}>Log In</button>
         </div>
     ) 
 
