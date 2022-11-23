@@ -64,7 +64,6 @@ function Login() {
     const [passwordReg, setPasswordReg] = useState("");
     const [usernameLogin, setUsernameLogin] = useState("");
     const [passwordLogin, setPasswordLogin] = useState("");
-    
 
     const register = () => {
         Axios.post(api_url + "register", {
